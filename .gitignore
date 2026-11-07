@@ -1,0 +1,10 @@
+# Ortam
+.venv/
+__pycache__/
+*.pyc
+
+# Ham veriyi depoya koymamak icin, src/step1_download.py veriyi yeniden indirir
+data/raw/
+
+# Office gecici dosyalari
+~$*
