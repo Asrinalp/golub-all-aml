@@ -1,10 +1,8 @@
 """Adim 1: Ham verileri indirir ve SHA-256 ozetlerini kaydeder.
 
-Ham veri depoya konmaz (bkz. .gitignore); bu betik her seferinde ayni dosyalari
+Ham veri depoya konmaz; bu betik her seferinde ayni dosyalari
 yeniden indirir ve ozetleri data/raw/MANIFEST.json dosyasina yazar.
 
-GSE14062 ornek ornek NCBI GEO'dan alinir (140 istek, yaklasik 8 dakika).
-MILE (GSE13159) yalnizca step8_mile_overlap.py icin gereklidir ve orada indirilir.
 """
 import gzip
 import hashlib
@@ -26,7 +24,6 @@ BROAD_ARMSTRONG = "https://pubs.broadinstitute.org/mpr/projects/MLL"
 GEO_ANNOT = "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/{gpl}/annot/{gpl}.annot.gz"
 GEO_QUERY = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi"
 RETRY_WAITS = [30, 60, 120, 0]
-# Wayback, varsayilan python-requests kimligini sik sik 429 ile reddediyor.
 HEADERS = {"User-Agent": "golub-all-aml-eda/1.0 (academic course project)"}
 
 SOURCES = {
