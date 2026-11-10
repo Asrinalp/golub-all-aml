@@ -1,0 +1,24 @@
+{
+ "_not": "Yazarin arayuzde elle yaptigi aramalar. Sayilar yazarin ekran goruntulerinden alinmistir.",
+ "europe_pmc_first": {
+  "date": "2026-10-25",
+  "query": "7129 leukemia",
+  "count": 652
+ },
+ "europe_pmc": {
+  "date": "2026-11-08",
+  "date_label": "7–8 Kasım 2026 gecesi",
+  "filters": "yok",
+  "counts": {"Q1": 105, "Q2": 59, "Q3": 51, "Q4": 8, "Q5": 60, "Q6": 19, "Q7": 18, "GSE14062": 7}
+ },
+ "google_scholar": {
+  "date": "2026-11-08",
+  "date_label": "7–8 Kasım 2026 gecesi",
+  "settings": "tum yillar, alintilar dahil, patentler haric, alakaya gore siralama",
+  "queries": {
+   "GS-1": {"query": "leukemia \"gene expression\" classification \"feature selection\" Golub", "count": "≈4.790"},
+   "GS-2": {"query": "allintitle: leukemia classification \"gene expression\" OR microarray", "count": "≈112"},
+   "GS-3": {"query": "\"GSE14062\"", "count": "16"}
+  }
+ }
+}

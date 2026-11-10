@@ -1,0 +1,144 @@
+{
+ "IEEE-1 1999-2020": {
+  "query": "(leukemia OR leukaemia) AND (\"gene expression\" OR microarray) AND (\"feature selection\" OR \"gene selection\" OR classification)",
+  "years": "1999-2020",
+  "count": 25,
+  "with_abstract": 25,
+  "golub_in_abstract": [
+   {
+    "year": 2005,
+    "doi": "https://doi.org/10.1109/fuzzy.2005.1452375",
+    "title": "FCM-SVM-RFE Gene Feature Selection Algorithm for Leukemia Classification from Microarray Gene Expression Data",
+    "venue": "IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
+    "oa": false,
+    "hit": "AML/ALL"
+   },
+   {
+    "year": 2008,
+    "doi": "https://doi.org/10.1109/icbbe.2008.186",
+    "title": "Classification and Identification of Differential Gene Expression for Microarray Data: Improvement of the Random Forest Method",
+    "venue": "International Conference on Bioinformatics and Biomedical Engineering",
+    "oa": false,
+    "hit": "ALL-AML"
+   },
+   {
+    "year": 2010,
+    "doi": "https://doi.org/10.1109/tsmcc.2010.2078503",
+    "title": "PLS-Based Gene Selection and Identification of Tumor-Specific Genes",
+    "venue": "IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews)",
+    "oa": false,
+    "hit": "AML/ALL"
+   }
+  ]
+ },
+ "IEEE-1 2021-2026": {
+  "query": "(leukemia OR leukaemia) AND (\"gene expression\" OR microarray) AND (\"feature selection\" OR \"gene selection\" OR classification)",
+  "years": "2021-2026",
+  "count": 14,
+  "with_abstract": 14,
+  "golub_in_abstract": [
+   {
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/icwite64848.2025.11306911",
+    "title": "Opposition-Based Whale Optimization for Gene Selection in Leukemia Classification",
+    "venue": "IEEE International Conference for Women in Innovation, Technology & Entrepreneurship (ICWITE)",
+    "oa": false,
+    "hit": "Golub"
+   },
+   {
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/access.2021.3077958",
+    "title": "An Empirical Study of Several Information Theoretic Based Feature Extraction Methods for Classifying High Dimensional Low Sample Size Data",
+    "venue": "IEEE Access",
+    "oa": true,
+    "hit": "Golub"
+   }
+  ]
+ },
+ "IEEE-2 1999-2020": {
+  "query": "(leukemia OR leukaemia) AND (\"deep learning\" OR \"neural network\" OR \"convolutional\" OR transformer) AND (\"gene expression\" OR microarray)",
+  "years": "1999-2020",
+  "count": 2,
+  "with_abstract": 2,
+  "golub_in_abstract": []
+ },
+ "IEEE-2 2021-2026": {
+  "query": "(leukemia OR leukaemia) AND (\"deep learning\" OR \"neural network\" OR \"convolutional\" OR transformer) AND (\"gene expression\" OR microarray)",
+  "years": "2021-2026",
+  "count": 6,
+  "with_abstract": 6,
+  "golub_in_abstract": []
+ },
+ "IEEE-3 1999-2020": {
+  "query": "(Golub OR \"ALL/AML\" OR \"ALL-AML\" OR \"AML/ALL\") AND (leukemia OR leukaemia)",
+  "years": "1999-2020",
+  "count": 6,
+  "with_abstract": 6,
+  "golub_in_abstract": [
+   {
+    "year": 2005,
+    "doi": "https://doi.org/10.1109/fuzzy.2005.1452375",
+    "title": "FCM-SVM-RFE Gene Feature Selection Algorithm for Leukemia Classification from Microarray Gene Expression Data",
+    "venue": "IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
+    "oa": false,
+    "hit": "AML/ALL"
+   },
+   {
+    "year": 2008,
+    "doi": "https://doi.org/10.1109/icbbe.2008.186",
+    "title": "Classification and Identification of Differential Gene Expression for Microarray Data: Improvement of the Random Forest Method",
+    "venue": "International Conference on Bioinformatics and Biomedical Engineering",
+    "oa": false,
+    "hit": "ALL-AML"
+   },
+   {
+    "year": 2018,
+    "doi": "https://doi.org/10.1109/dsw.2018.8439914",
+    "title": "AIM: AN ABSTRACTION FOR IMPROVING MACHINE LEARNING PREDICTION",
+    "venue": "IEEE Data Science Workshop (DSW)",
+    "oa": false,
+    "hit": "Golub"
+   },
+   {
+    "year": 2007,
+    "doi": "https://doi.org/10.1109/icbbe.2007.74",
+    "title": "Maker Gene Identification: a Multiple Kernel Support Vector Machine Approach",
+    "venue": "International Conference on Bioinformatics and Biomedical Engineering",
+    "oa": false,
+    "hit": "ALL-AML"
+   },
+   {
+    "year": 2010,
+    "doi": "https://doi.org/10.1109/tsmcc.2010.2078503",
+    "title": "PLS-Based Gene Selection and Identification of Tumor-Specific Genes",
+    "venue": "IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews)",
+    "oa": false,
+    "hit": "AML/ALL"
+   }
+  ]
+ },
+ "IEEE-3 2021-2026": {
+  "query": "(Golub OR \"ALL/AML\" OR \"ALL-AML\" OR \"AML/ALL\") AND (leukemia OR leukaemia)",
+  "years": "2021-2026",
+  "count": 4,
+  "with_abstract": 4,
+  "golub_in_abstract": [
+   {
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/icwite64848.2025.11306911",
+    "title": "Opposition-Based Whale Optimization for Gene Selection in Leukemia Classification",
+    "venue": "IEEE International Conference for Women in Innovation, Technology & Entrepreneurship (ICWITE)",
+    "oa": false,
+    "hit": "Golub"
+   },
+   {
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/access.2021.3077958",
+    "title": "An Empirical Study of Several Information Theoretic Based Feature Extraction Methods for Classifying High Dimensional Low Sample Size Data",
+    "venue": "IEEE Access",
+    "oa": true,
+    "hit": "Golub"
+   }
+  ]
+ }
+}
